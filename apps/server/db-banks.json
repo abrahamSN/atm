@@ -1,0 +1,145 @@
+{
+  "logged_session": {
+    "id": 0,
+    "username": ""
+  },
+  "users": [
+    {
+      "id": 1,
+      "username": "abraham"
+    },
+    {
+      "id": 2,
+      "username": "elon"
+    },
+    {
+      "username": "snmayer",
+      "id": 3
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "amount": 50,
+      "type": "deposit",
+      "to_id": null
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "amount": 50,
+      "type": "withdraw",
+      "to_id": null
+    },
+    {
+      "id": 3,
+      "user_id": 2,
+      "amount": 200,
+      "type": "deposit",
+      "to_id": null
+    },
+    {
+      "id": 4,
+      "user_id": 2,
+      "amount": 100,
+      "type": "withdraw",
+      "to_id": null
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "amount": 100,
+      "type": "transfer",
+      "to_id": 2
+    },
+    {
+      "user_id": 1,
+      "type": "deposit",
+      "amount": 300,
+      "id": 6
+    },
+    {
+      "user_id": 1,
+      "amount": 500,
+      "type": "deposit",
+      "id": 7
+    },
+    {
+      "user_id": 3,
+      "amount": 100,
+      "type": "deposit",
+      "id": 8
+    },
+    {
+      "user_id": 3,
+      "amount": 100,
+      "type": "withdraw",
+      "id": 9
+    },
+    {
+      "user_id": 3,
+      "amount": 100,
+      "type": "deposit",
+      "id": 10
+    },
+    {
+      "user_id": 3,
+      "amount": 100,
+      "type": "withdraw",
+      "id": 11
+    },
+    {
+      "user_id": 1,
+      "amount": 100,
+      "type": "transfer",
+      "to_id": 3,
+      "id": 12
+    },
+    {
+      "user_id": 1,
+      "amount": 1000,
+      "type": "deposit",
+      "id": 13
+    },
+    {
+      "user_id": 1,
+      "amount": 100,
+      "type": "withdraw",
+      "id": 14
+    },
+    {
+      "user_id": 1,
+      "amount": 500,
+      "type": "transfer",
+      "to_id": 3,
+      "id": 15
+    },
+    {
+      "user_id": 1,
+      "amount": 100,
+      "type": "transfer",
+      "to_id": 3,
+      "id": 16
+    },
+    {
+      "user_id": 1,
+      "amount": 100,
+      "type": "deposit",
+      "id": 17
+    },
+    {
+      "user_id": 1,
+      "amount": 10,
+      "type": "withdraw",
+      "id": 18
+    },
+    {
+      "user_id": 1,
+      "amount": 10,
+      "type": "transfer",
+      "to_id": 3,
+      "id": 19
+    }
+  ]
+}
